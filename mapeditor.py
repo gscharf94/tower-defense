@@ -40,7 +40,7 @@ currentSelection = 0
 def saveFile2():
 	global inputWindow, fileNameEntry
 	fileName = fileNameEntry.get()
-	fileDirectory = """C:\\Users\\Gustavo\\Documents\\programming python\\tower defense\\savefiles\\"""
+	fileDirectory = """C:\\Users\\Gustavo\\Documents\\pythonscripts\\towerdefense\\tower-defense-master\\tower-defense-master\\savefiles\\"""
 	fileDirectory += str(fileName)
 	f = open(fileDirectory,'wb')
 	pickle.dump(cells,f)
@@ -79,6 +79,13 @@ def drawStarting():
 def drawEnding():
 	global currentSelection
 	currentSelection = 6
+
+def drawBox():
+	global currentSelection
+	currentSelection = 0
+
+toggleBlack = Button(toggles,text='Black Box',command=drawBox,width=10,height=1)
+toggleBlack.pack(fill='both')
 
 toggleX = Button(toggles,text='Draw X',command=drawX,width=10,height=1)
 toggleX.pack(fill='both')
