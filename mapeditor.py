@@ -1,6 +1,7 @@
 from tkinter import *
 from math import floor
 import pickle
+import os
 
 window = Tk()
 window.title('Map Editor')
@@ -40,9 +41,9 @@ currentSelection = 0
 def saveFile2():
 	global inputWindow, fileNameEntry
 	fileName = fileNameEntry.get()
-	fileDirectory = """C:\\Users\\Gustavo\\Documents\\pythonscripts\\towerdefense\\tower-defense-master\\tower-defense-master\\savefiles\\"""
-	fileDirectory += str(fileName)
-	f = open(fileDirectory,'wb')
+	path = os.path.abspath("")
+	path = path+"\\savefiles\\"+str(fileName)
+	f = open(path,'wb')
 	pickle.dump(cells,f)
 	f.close()
 	inputWindow.destroy()

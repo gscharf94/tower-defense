@@ -3,6 +3,7 @@ from math import floor, sqrt
 import pickle
 from random import randint, uniform
 import time
+import os
 
 class Cell():
 	def __init__(self,x,y):
@@ -39,7 +40,9 @@ class Cell():
 def loadMap():
 	global cells
 	fileName = fileNameEntry.get()
-	cells = pickle.load(open("""C:\\Users\\Gustavo\\Documents\\pythonscripts\\towerdefense\\tower-defense-master\\tower-defense-master\\savefiles\\"""+str(fileName),'rb'))
+	path = os.path.abspath("")
+	path = path+"\\savefiles\\"+fileName
+	cells = pickle.load(open(path,'rb'))
 	inputWindow.quit()
 
 inputWindow = Tk()
