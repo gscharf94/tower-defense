@@ -8,7 +8,8 @@ README
 
 	2) What is the plan?
 
-	This will a tower defense game developed by yours truly. The goal is to have a basic campaign, some basic graphics, and a variety of enemies and towers to choose from. Perhaps even a storyline. 
+	This will a tower defense game developed by yours truly. The goal is to have a basic campaign, some 
+	basic graphics, and a variety of enemies and towers to choose from. Perhaps even a storyline. 
 
 	3) How does it work?
 
@@ -25,7 +26,8 @@ MILESTONES
 
 	V 0.1 (Current) - Has a map editor, can load up maps and spawn enemies
 
-	V 0.2 (Goal) - Include a gold system to buy towers, add "missions" which spawn certain number of enemies at certain points 
+	V 0.2 (Goal) - Include a gold system to buy towers, add "missions" which spawn certain number of
+	enemies at certain points 
 
 
 CONTACT
