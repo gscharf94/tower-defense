@@ -1,4 +1,4 @@
-								Gustavo's Shitty Tower Defense V 0.1
+					Gustavo's Shitty Tower Defense V 0.1
 README
 
 	1) What is it?
