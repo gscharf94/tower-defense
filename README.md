@@ -1,4 +1,7 @@
 					Gustavo's Shitty Tower Defense V 0.1
+
+EDIT FROM THE FUTURE: This was made a long time ago and looking back the code is quite shit (which made this title quite apt). I had this in a private repository, but I figured I'd make it public cause why not. My code has slightly improved since this attempt at a tower defense game. 
+
 README
 
 	1) What is it?
